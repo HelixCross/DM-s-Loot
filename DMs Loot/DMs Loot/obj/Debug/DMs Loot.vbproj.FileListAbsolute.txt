@@ -1,0 +1,12 @@
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Debug\DMs Loot.exe.config
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Debug\DMs Loot.exe
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Debug\DMs Loot.pdb
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Debug\DMs Loot.xml
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.vbprojAssemblyReference.cache
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs_Loot.Form1.resources
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs_Loot.Resources.resources
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.vbproj.GenerateResource.cache
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.vbproj.CoreCompileInputs.cache
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.exe
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.xml
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.pdb

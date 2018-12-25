@@ -1,0 +1,13 @@
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Release\DMs Loot.exe.config
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Release\DMs Loot.exe
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Release\DMs Loot.pdb
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Release\DMs Loot.xml
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Release\DMs_Loot.Form1.resources
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Release\DMs_Loot.Resources.resources
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Release\DMs Loot.vbproj.GenerateResource.cache
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Release\DMs Loot.vbproj.CoreCompileInputs.cache
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Release\DMs Loot.exe
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Release\DMs Loot.xml
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Release\DMs Loot.pdb
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Release\DMs Loot.exe.CodeAnalysisLog.xml
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Release\DMs Loot.exe.lastcodeanalysissucceeded
