@@ -27,22 +27,7 @@ DMs Loot
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:DMs_Loot.My.Resources.Resources.Form">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:DMs_Loot.My.Resources.Resources.Options">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:DMs_Loot.My.Resources.Resources.Panel2">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:DMs_Loot.My.Resources.Resources.Tab1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

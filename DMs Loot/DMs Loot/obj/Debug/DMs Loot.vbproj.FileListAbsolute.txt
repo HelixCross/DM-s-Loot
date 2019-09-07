@@ -10,3 +10,10 @@ C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.vbproj.CoreCompi
 C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.exe
 C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.xml
 C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.pdb
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.vbproj.ResolveComReference.cache
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Debug\DMs Loot.exe.manifest
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\bin\Debug\DMs Loot.application
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.TrustInfo.xml
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.exe.manifest
+C:\Users\jack\source\repos\DMs Loot\DMs Loot\obj\Debug\DMs Loot.application

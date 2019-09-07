@@ -27,7 +27,7 @@ Namespace My.Resources
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
     Friend Module Resources
-        Friend Panel2 As Image
+        
         Private resourceMan As Global.System.Resources.ResourceManager
         
         Private resourceCulture As Global.System.Globalization.CultureInfo
@@ -73,29 +73,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Form() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Form", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property Options() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Options", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Tab1() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Tab1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

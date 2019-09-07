@@ -3,6 +3,40 @@
     Dim newpoint As Point 'the newpoint is the dimantion that it will assing the position of the application
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LinkLabel1.Text = ("Magic Item Compendium.")
+        LinkLabel1.Links.Add(0, 22, "https://dtdnd.neocities.org/books/player/Magic%20Item%20Compendium.pdf")
+
+        LinkLabel2.Text = ("Dungeon Master's Guide.")
+        LinkLabel2.Links.Add(0, 23, "http://forum.nwnights.ru/uploads/rulebooks/Core_Books/Dungeon_Master's_Guide.pdf")
+
+        LinkLabel3.Text = ("Weapons Of Legacy.")
+        LinkLabel3.Links.Add(0, 17, "http://choisey.free.fr/3.5/Help/Weapons%20of%20Legacy.pdf")
+
+        LinkLabel4.Text = ("Arms And Equipment Guide.")
+        LinkLabel4.Links.Add(0, 25, "https://www.scribd.com/document/6105229/arms-and-equipment-guide")
+
+        LinkLabel5.Text = ("Forgotten Realms.")
+        LinkLabel5.Links.Add(0, 18, "https://www.scribd.com/doc/177487154/D-D-3-5-Forgotten-Realms-Campaign-Setting")
+
+        LinkLabel6.Text = ("Forgotten Realms-Races Of Faerûn.")
+        LinkLabel6.Links.Add(0, 33, "http://www.mpsw.hu/files/dand_35/D&D%203.5%20-%20Races%20of%20Faerun%20%5BOEF%5D.pdf")
+
+        LinkLabel7.Text = ("Forgotten Realms-Power Of Faerûn.")
+        LinkLabel7.Links.Add(0, 34, "https://www.scribd.com/document/117644679/Forgotten-Realms-D-D-3-5-Power-of-Faerun")
+
+        LinkLabel8.Text = ("Dieties And Demigods Of Faerûn.")
+        LinkLabel8.Links.Add(0, 30, "http://home.nitkin.net/dndbooks/DaD_DietiesAndDemigods.pdf")
+
+        LinkLabel9.Text = ("Monster Manual.")
+        LinkLabel9.Links.Add(0, 15, "http://forum.nwnights.ru/uploads/rulebooks/Core_Books/Monster_Manual.pdf")
+
+        LinkLabel10.Text = ("Monsters Of Faerûn.")
+        LinkLabel10.Links.Add(0, 20, "http://files.full-hyperion.nl/dnd/Monsters%20of%20Faerun.pdf")
+
+        LinkLabel11.Text = ("Monster Manual 2.")
+        LinkLabel11.Links.Add(0, 20, "http://choisey.free.fr/3.5/Core/Dungeons%20and%20Dragons%203.5%20-%20Monster%20Manual%20II.pdf")
+
+
 
     End Sub
 
@@ -12,11 +46,7 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click ' Closes the form from this button.
-        Me.Close()
 
-
-    End Sub
 
     Private Sub ToolTip1_Popup(sender As Object, e As PopupEventArgs) Handles ToolTip1.Popup
 
@@ -33,9 +63,7 @@
         End If
     End Sub
 
-    Private Sub Button1_MouseHover(sender As Object, e As EventArgs) Handles Button1.MouseHover 'The tool tip will take effect only if you set up the correct event like mousehover.
 
-    End Sub
 
     Private Sub Label1_MouseHover(sender As Object, e As EventArgs) Handles Label1.MouseHover
 
@@ -107,14 +135,14 @@
     End Sub
 
     Private Sub Button9_MouseHover(sender As Object, e As EventArgs) Handles Button9.MouseHover
-        Label1.Text = "This list has items +5 only for the maximum basic level that DnD provides. Non-epic."
+        Label1.Text = "This list has relic, artefacts, and legacy Items. These are powerfull Items and they need an experianced DM."
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If TextBox1.Text = "1" Then
             TextBox3.Text = "Dagger"
         ElseIf TextBox1.Text = "2" Then
-            TextBox3.Text = "Scyth"
+            TextBox3.Text = "Scythe"
         ElseIf TextBox1.Text = "3" Then
             TextBox3.Text = "GreatAxe"
         ElseIf TextBox1.Text = "4" Then
@@ -747,7 +775,7 @@
         ElseIf TextBox1.Text = "99" Then
             TextBox3.Text = "+2 Demon Bane Halbert Of Force "
         ElseIf TextBox1.Text = "100" Then
-            TextBox3.Text = "+3 Flaming Scimitar Of Vorpal"
+            TextBox3.Text = "+3 Flaming Scimitar Of Bane"
 
         End If
     End Sub
@@ -756,7 +784,7 @@
         If TextBox1.Text = "1" Then
             TextBox3.Text = "+3 Glaive Of Vampiric Touch"
         ElseIf TextBox1.Text = "2" Then
-            TextBox3.Text = " +2 Kopesh Of Vorpal"
+            TextBox3.Text = " +2 Kopesh Of Wounding"
         ElseIf TextBox1.Text = "3" Then
             TextBox3.Text = "+3 Lance Of Undead Bane "
         ElseIf TextBox1.Text = "4" Then
@@ -1159,6 +1187,806 @@
         ElseIf TextBox1.Text = "100" Then
             TextBox3.Text = "Dragon Scale Mail Armour (Locked)"
         End If
+
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        If TextBox1.Text = "1" Then
+            TextBox3.Text = "Crystal Of Life Drinking"
+        ElseIf TextBox1.Text = "2" Then
+            TextBox3.Text = " Assassin's Whip  "
+        ElseIf TextBox1.Text = "3" Then
+            TextBox3.Text = "+4 Flame Guard Buckler Of Energy Immunity Of Fire"
+        ElseIf TextBox1.Text = "4" Then
+            TextBox3.Text = "+4 Aquan Longsword Or Auran "
+        ElseIf TextBox1.Text = "5" Then
+            TextBox3.Text = "+5 Blessed Heavy Mace Of Acid Burst "
+        ElseIf TextBox1.Text = "6" Then
+            TextBox3.Text = "+4 Longbow Of Sonic Burst"
+        ElseIf TextBox1.Text = "7" Then
+            TextBox3.Text = "+4 Greataxe Of Venom"
+        ElseIf TextBox1.Text = "8" Then
+            TextBox3.Text = "+5 Longsword Of Venom"
+        ElseIf TextBox1.Text = "9" Then
+            TextBox3.Text = "+5 Holy Flaming Bone Bow Of Holy Burst"
+        ElseIf TextBox1.Text = "10" Then
+            TextBox3.Text = "Potion Of Cure Serious Wounds"
+        ElseIf TextBox1.Text = "11" Then
+            TextBox3.Text = "Crystal Of Arcane Steel"
+        ElseIf TextBox1.Text = "12" Then
+            TextBox3.Text = "+4 Adamantine Spiked Full Plate Of Energy Immunity (Force)"
+        ElseIf TextBox1.Text = "13" Then
+            TextBox3.Text = "+4 Composite Longbow"
+        ElseIf TextBox1.Text = "14" Then
+            TextBox3.Text = "+4 Breastplate Of Healing "
+        ElseIf TextBox1.Text = "15" Then
+            TextBox3.Text = "+4 Ogre Power Leather Armour Of Sneaking"
+        ElseIf TextBox1.Text = "16" Then
+            TextBox3.Text = "+4 Ignan Spear Of Holy Surge"
+        ElseIf TextBox1.Text = "17" Then
+            TextBox3.Text = "+4 Metalline Bolts"
+        ElseIf TextBox1.Text = "18" Then
+            TextBox3.Text = "+4 Metalline Silver Falchion Of Knockback"
+        ElseIf TextBox1.Text = "19" Then
+            TextBox3.Text = "+4 Neckless Of Natural Armour "
+        ElseIf TextBox1.Text = "20" Then
+            TextBox3.Text = "+4 Necrotic Staff Of Wisdom"
+        ElseIf TextBox1.Text = "21" Then
+            TextBox3.Text = "+4 Profane Paralizing Longsword Of Holy Surge"
+        ElseIf TextBox1.Text = "22" Then
+            TextBox3.Text = "5587 PP Pouch"
+        ElseIf TextBox1.Text = "23" Then
+            TextBox3.Text = "+4 Quick Loading Light Crossbow"
+        ElseIf TextBox1.Text = "24" Then
+            TextBox3.Text = "Helmet Of Brilliance"
+        ElseIf TextBox1.Text = "25" Then
+            TextBox3.Text = "+4 Blessed Crusaders Fullplate Of Greater Healing"
+        ElseIf TextBox1.Text = "26" Then
+            TextBox3.Text = "+4 Radiant Leather Armour"
+        ElseIf TextBox1.Text = "27" Then
+            TextBox3.Text = "+4 Thives Tools"
+        ElseIf TextBox1.Text = "28" Then
+            TextBox3.Text = "+4 Protectors Ring Of Disguise"
+        ElseIf TextBox1.Text = "29" Then
+            TextBox3.Text = "+4 Ring Of Stamina"
+        ElseIf TextBox1.Text = "30" Then
+            TextBox3.Text = "+4 Greateaxe Of Bloodfeeding"
+        ElseIf TextBox1.Text = "31" Then
+            TextBox3.Text = "+4 Shocking Whip Of Vertigo"
+        ElseIf TextBox1.Text = "32" Then
+            TextBox3.Text = "+4 Dagger"
+        ElseIf TextBox1.Text = "33" Then
+            TextBox3.Text = "+4 Towershiled"
+        ElseIf TextBox1.Text = "34" Then
+            TextBox3.Text = "+4 Bolas Of Force Burst"
+        ElseIf TextBox1.Text = "35" Then
+            TextBox3.Text = "+4 Vanishing Studded Leather Of Quickness"
+        ElseIf TextBox1.Text = "36" Then
+            TextBox3.Text = "+4 Keen Greatesword Of Luck"
+        ElseIf TextBox1.Text = "37" Then
+            TextBox3.Text = "+4 Wise Ring Of Featherfalling "
+        ElseIf TextBox1.Text = "38" Then
+            TextBox3.Text = "+4 katana "
+        ElseIf TextBox1.Text = "39" Then
+            TextBox3.Text = "+4 Light Shield Of detect Secret Doors "
+        ElseIf TextBox1.Text = "40" Then
+            TextBox3.Text = "+4 Axiomatic Dagger Of Maiming "
+        ElseIf TextBox1.Text = "41" Then
+            TextBox3.Text = "+4 Chaotic Handaxe Of Harmsting"
+        ElseIf TextBox1.Text = "42" Then
+            TextBox3.Text = "+4 Dragondoom Battleaxe Of Frostburst "
+        ElseIf TextBox1.Text = "43" Then
+            TextBox3.Text = "Bearskin Armour"
+        ElseIf TextBox1.Text = "44" Then
+            TextBox3.Text = "+4 Shiled Of Mercy "
+        ElseIf TextBox1.Text = "45" Then
+            TextBox3.Text = "+4 Metalline Greataxe Of Luck "
+        ElseIf TextBox1.Text = "46" Then
+            TextBox3.Text = "+4 Light Mace"
+        ElseIf TextBox1.Text = "47" Then
+            TextBox3.Text = "+5 Shortbow "
+        ElseIf TextBox1.Text = "48" Then
+            TextBox3.Text = "+4 Repeating Light Crossbow Of Harmsting "
+        ElseIf TextBox1.Text = "49" Then
+            TextBox3.Text = "+4 Slight Of Hands Ring Of Pick Lock "
+        ElseIf TextBox1.Text = "50" Then
+            TextBox3.Text = "+4 Defending Scimitar Of Sonicburst"
+        ElseIf TextBox1.Text = "51" Then
+            TextBox3.Text = "Diamond"
+        ElseIf TextBox1.Text = "52" Then
+            TextBox3.Text = "+4 Endurance Ring Of Rage "
+        ElseIf TextBox1.Text = "53" Then
+            TextBox3.Text = "+4 Cunning Neckless Of Consetration   "
+        ElseIf TextBox1.Text = "54" Then
+            TextBox3.Text = "+4 Keen Glaive  "
+        ElseIf TextBox1.Text = "55" Then
+            TextBox3.Text = "Crystal Of Aquatic Action "
+        ElseIf TextBox1.Text = "56" Then
+            TextBox3.Text = "+4 Unholy Longsword Of Drow"
+        ElseIf TextBox1.Text = "57" Then
+            TextBox3.Text = "+4 Flaming Halbert Of Vertigo"
+        ElseIf TextBox1.Text = "58" Then
+            TextBox3.Text = "+4 Shocking Sai Of Assassination"
+        ElseIf TextBox1.Text = "59" Then
+            TextBox3.Text = "+4 Neckless Of Protection"
+        ElseIf TextBox1.Text = "60" Then
+            TextBox3.Text = "+4 Acid Warhammer Of Stunning"
+        ElseIf TextBox1.Text = "61" Then
+            TextBox3.Text = "+4 Sonic Whip Of Tripping "
+        ElseIf TextBox1.Text = "62" Then
+            TextBox3.Text = "+4 Arrows Of Shock (2)"
+        ElseIf TextBox1.Text = "63" Then
+            TextBox3.Text = "+4 Leather Armour Of Protection From Good"
+        ElseIf TextBox1.Text = "64" Then
+            TextBox3.Text = "+4 Breastplate Of Elemental Immunity (Shock)"
+        ElseIf TextBox1.Text = "65" Then
+            TextBox3.Text = "Potion Of Eagle Splendour"
+        ElseIf TextBox1.Text = "66" Then
+            TextBox3.Text = "Potion Of Cure Disease "
+        ElseIf TextBox1.Text = "67" Then
+            TextBox3.Text = "+4 Brutal Strike Morningstar Of Blur Strike"
+        ElseIf TextBox1.Text = "68" Then
+            TextBox3.Text = "+4 Chanelling Spear Of Collision"
+        ElseIf TextBox1.Text = "69" Then
+            TextBox3.Text = "+4 Dexterous Ring Of Searching"
+        ElseIf TextBox1.Text = "70" Then
+            TextBox3.Text = "+4 Disarming Flail Of Sonic Burst"
+        ElseIf TextBox1.Text = "71" Then
+            TextBox3.Text = "+4 Dispelling Trident Of Bane"
+        ElseIf TextBox1.Text = "72" Then
+            TextBox3.Text = "+4 Flaming  Nunchacku Of Stunning "
+        ElseIf TextBox1.Text = "73" Then
+            TextBox3.Text = "+4 Towershield Of Bashing"
+        ElseIf TextBox1.Text = "74" Then
+            TextBox3.Text = "+4 Great Crossbow "
+        ElseIf TextBox1.Text = "75" Then
+            TextBox3.Text = "+4 Dragonhunter Bolts (5)"
+        ElseIf TextBox1.Text = "76" Then
+            TextBox3.Text = "+4 Fleshgrinding Falchion Of Keen Edge"
+        ElseIf TextBox1.Text = "77" Then
+            TextBox3.Text = "+4 Impact Light Hammer Of Acid"
+        ElseIf TextBox1.Text = "78" Then
+            TextBox3.Text = "+4 Mindfeeder Dwarven Waraxe Of Shocking Burst "
+        ElseIf TextBox1.Text = "79" Then
+            TextBox3.Text = "+4 Keen Rapier Of Blind"
+        ElseIf TextBox1.Text = "80" Then
+            TextBox3.Text = "+4 Defending Longsword Of Perrying"
+        ElseIf TextBox1.Text = "81" Then
+            TextBox3.Text = "+4 Anarchic Composite Longbow Of Poison"
+        ElseIf TextBox1.Text = "82" Then
+            TextBox3.Text = "+4 Ogre Power Ring Of Necromancy"
+        ElseIf TextBox1.Text = "83" Then
+            TextBox3.Text = "+4 Acid Falchion Of Ghosttouch"
+        ElseIf TextBox1.Text = "84" Then
+            TextBox3.Text = "+4 Screaming Shortsword Of Acid Burst"
+        ElseIf TextBox1.Text = "85" Then
+            TextBox3.Text = "Shaphire"
+        ElseIf TextBox1.Text = "86" Then
+            TextBox3.Text = "+4 Charesmatic Scale Armour Of Swimming"
+        ElseIf TextBox1.Text = "87" Then
+            TextBox3.Text = "+4 Sacred Hooked Hammer Of Revealing "
+        ElseIf TextBox1.Text = "88" Then
+            TextBox3.Text = "+5 Greater False Life Full Armour Of Fire Resistance"
+        ElseIf TextBox1.Text = "89" Then
+            TextBox3.Text = "+4 Gnome Bane Great Club"
+        ElseIf TextBox1.Text = "90" Then
+            TextBox3.Text = "+4 Composite Longbow Of Holy Busrt"
+        ElseIf TextBox1.Text = "91" Then
+            TextBox3.Text = "+4 Acidic Dagger Of Slow Burst"
+        ElseIf TextBox1.Text = "92" Then
+            TextBox3.Text = "+4 Slint Armour Of Moderate Thorn Guard"
+        ElseIf TextBox1.Text = "93" Then
+            TextBox3.Text = "+4 Dancing Greataxe Of Disarming"
+        ElseIf TextBox1.Text = "94" Then
+            TextBox3.Text = "+4 Shattermantle Sai Of Terran "
+        ElseIf TextBox1.Text = "95" Then
+            TextBox3.Text = "+5 Vampiric Longsword Of Flaming Burst"
+        ElseIf TextBox1.Text = "96" Then
+            TextBox3.Text = "+4 Acid Greataxe Of Acid Burst"
+        ElseIf TextBox1.Text = "97" Then
+            TextBox3.Text = "Axe Of Ancestral Virue"
+        ElseIf TextBox1.Text = "98" Then
+            TextBox3.Text = "+4 Scimitar Of Unholy Surge "
+        ElseIf TextBox1.Text = "99" Then
+            TextBox3.Text = "Bow Of The Wintermoon "
+        ElseIf TextBox1.Text = "100" Then
+            TextBox3.Text = "Armour Of the Fallen Leaves"
+        End If
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        If TextBox1.Text = "1" Then
+            TextBox3.Text = "+5 Sacred Burst Shadowstrike Shattermantle Dagger Of Weakening"
+        ElseIf TextBox1.Text = "2" Then
+            TextBox3.Text = " +5 Greater Fortification Fullplate Of Enegy "
+        ElseIf TextBox1.Text = "3" Then
+            TextBox3.Text = "Whipe Of Webs"
+        ElseIf TextBox1.Text = "4" Then
+            TextBox3.Text = "Holy Avenger "
+        ElseIf TextBox1.Text = "5" Then
+            TextBox3.Text = "Crystal Of Energy Assult "
+        ElseIf TextBox1.Text = "6" Then
+            TextBox3.Text = "Wand Of Mass Cure Moderate Wounds (50)"
+        ElseIf TextBox1.Text = "7" Then
+            TextBox3.Text = "Wand Of Mass Charm Person (20)"
+        ElseIf TextBox1.Text = "8" Then
+            TextBox3.Text = "+5 Vorpal Longsword"
+        ElseIf TextBox1.Text = "9" Then
+            TextBox3.Text = "+5 Flaming Warhammer "
+        ElseIf TextBox1.Text = "10" Then
+            TextBox3.Text = "+5 Proof Against Disease Belt Of Wisdom"
+        ElseIf TextBox1.Text = "11" Then
+            TextBox3.Text = "+5 Greatbow"
+        ElseIf TextBox1.Text = "12" Then
+            TextBox3.Text = "+4 Shortbow Of Fire Burst"
+        ElseIf TextBox1.Text = "13" Then
+            TextBox3.Text = "+4 Heavy Crossbow Of Venom  "
+        ElseIf TextBox1.Text = "14" Then
+            TextBox3.Text = "+4 Scalemail Of Balance "
+        ElseIf TextBox1.Text = "15" Then
+            TextBox3.Text = "+4 Neckless Of Spot "
+        ElseIf TextBox1.Text = "16" Then
+            TextBox3.Text = "+4 Frost Spear Of Maiming"
+        ElseIf TextBox1.Text = "17" Then
+            TextBox3.Text = "+4 Arrows Of Slaying"
+        ElseIf TextBox1.Text = "18" Then
+            TextBox3.Text = "+4 Silver Flame Morningstar"
+        ElseIf TextBox1.Text = "19" Then
+            TextBox3.Text = "+5 Spiked Fullplate Of Deathblock "
+        ElseIf TextBox1.Text = "20" Then
+            TextBox3.Text = "+4 Paralizing Returning Throwing Dagger"
+        ElseIf TextBox1.Text = "21" Then
+            TextBox3.Text = "+5 Kukri"
+        ElseIf TextBox1.Text = "22" Then
+            TextBox3.Text = "Money Pouch (The Generous DM will tell the amount. )"
+        ElseIf TextBox1.Text = "23" Then
+            TextBox3.Text = "+4 Composite Longbow Of Cursespewing"
+        ElseIf TextBox1.Text = "24" Then
+            TextBox3.Text = "+5 Dagger Of Wishing"
+        ElseIf TextBox1.Text = "25" Then
+            TextBox3.Text = "+4 Sacred Morningstar Of Holy Burst"
+        ElseIf TextBox1.Text = "26" Then
+            TextBox3.Text = "+5 Blood Knight's Armour"
+        ElseIf TextBox1.Text = "27" Then
+            TextBox3.Text = "+4 Ring Of Slight Of Hands"
+        ElseIf TextBox1.Text = "28" Then
+            TextBox3.Text = "+5 Splint Armour Of Endurance"
+        ElseIf TextBox1.Text = "29" Then
+            TextBox3.Text = "+4 Scepter Of Evocation Focus"
+        ElseIf TextBox1.Text = "30" Then
+            TextBox3.Text = "+5 Greater Fortification Leather Armour Of Wisdom"
+        ElseIf TextBox1.Text = "31" Then
+            TextBox3.Text = "+4 Soulbinding Ghosttouch Sythe Of Marmonizing"
+        ElseIf TextBox1.Text = "32" Then
+            TextBox3.Text = "+5 Rapier"
+        ElseIf TextBox1.Text = "33" Then
+            TextBox3.Text = "+4 Handaxe Of Shock"
+        ElseIf TextBox1.Text = "34" Then
+            TextBox3.Text = "+5 Vicious Greataxe Of Mayhem"
+        ElseIf TextBox1.Text = "35" Then
+            TextBox3.Text = "+4 Helmet Of Buffing"
+        ElseIf TextBox1.Text = "36" Then
+            TextBox3.Text = "+5 Flaming Whip Of Flaming Burst"
+        ElseIf TextBox1.Text = "37" Then
+            TextBox3.Text = "+4 Bolts Of Acid (10)"
+        ElseIf TextBox1.Text = "38" Then
+            TextBox3.Text = "+5 Throwing Axe"
+        ElseIf TextBox1.Text = "39" Then
+            TextBox3.Text = "+4 Towershield Of Stone Skin "
+        ElseIf TextBox1.Text = "40" Then
+            TextBox3.Text = "+5 Charesmatic Ring Of Performing  "
+        ElseIf TextBox1.Text = "41" Then
+            TextBox3.Text = "+4 Ogre Power Ring Of Indimitation"
+        ElseIf TextBox1.Text = "42" Then
+            TextBox3.Text = "+5 Unholy Greatsword "
+        ElseIf TextBox1.Text = "43" Then
+            TextBox3.Text = "+4 Adamantine Buckler"
+        ElseIf TextBox1.Text = "44" Then
+            TextBox3.Text = "+5 Shattermentle Fullplate"
+        ElseIf TextBox1.Text = "45" Then
+            TextBox3.Text = "+4 Acid Longbow Of Vertigo "
+        ElseIf TextBox1.Text = "46" Then
+            TextBox3.Text = "+5 Kopesh"
+        ElseIf TextBox1.Text = "47" Then
+            TextBox3.Text = "+4 Sythe Of Doom "
+        ElseIf TextBox1.Text = "48" Then
+            TextBox3.Text = "+5 Ring Of Force Protection "
+        ElseIf TextBox1.Text = "49" Then
+            TextBox3.Text = "+4 Composite Shortbow Of Luck "
+        ElseIf TextBox1.Text = "50" Then
+            TextBox3.Text = "+5 Dancing Scimitar Of Keen Edge"
+        ElseIf TextBox1.Text = "51" Then
+            TextBox3.Text = "+4 Breastplate Of Rage"
+        ElseIf TextBox1.Text = "52" Then
+            TextBox3.Text = "+5 Cunning Ring Of Heroism  "
+        ElseIf TextBox1.Text = "53" Then
+            TextBox3.Text = "+4 Blade Boots"
+        ElseIf TextBox1.Text = "54" Then
+            TextBox3.Text = "+5 Tumbling Boots Of Speed"
+        ElseIf TextBox1.Text = "55" Then
+            TextBox3.Text = "Potion Of Flesh To Stone "
+        ElseIf TextBox1.Text = "56" Then
+            TextBox3.Text = "+4 Seeker Greatbow"
+        ElseIf TextBox1.Text = "57" Then
+            TextBox3.Text = "+5 Dwarven Urgorsh Of Orc Bane"
+        ElseIf TextBox1.Text = "58" Then
+            TextBox3.Text = "+4 Whip Of Force Burst"
+        ElseIf TextBox1.Text = "59" Then
+            TextBox3.Text = "+4 Flaming Razor Chain Of Wounding"
+        ElseIf TextBox1.Text = "60" Then
+            TextBox3.Text = "+5 Anarchic Greataxe Of Brilliance"
+        ElseIf TextBox1.Text = "61" Then
+            TextBox3.Text = "+4 Fiercebane Handaxe Of Fleshgrinding"
+        ElseIf TextBox1.Text = "62" Then
+            TextBox3.Text = "+5 Throwing Dagger"
+        ElseIf TextBox1.Text = "63" Then
+            TextBox3.Text = "Pothion Of Cat's Grace"
+        ElseIf TextBox1.Text = "64" Then
+            TextBox3.Text = "+5 Helmet Of Natural Armour"
+        ElseIf TextBox1.Text = "65" Then
+            TextBox3.Text = "Wand Of Haste (60)"
+        ElseIf TextBox1.Text = "66" Then
+            TextBox3.Text = "Wand Of Stone To Flesh"
+        ElseIf TextBox1.Text = "67" Then
+            TextBox3.Text = "+4 Ghost Srtike Force Heavily Burst Falchion Of Maiming"
+        ElseIf TextBox1.Text = "68" Then
+            TextBox3.Text = "+5 Returning Dart Of Poison"
+        ElseIf TextBox1.Text = "69" Then
+            TextBox3.Text = "+4 Wounding Blade Boots Of Expideous Retreat"
+        ElseIf TextBox1.Text = "70" Then
+            TextBox3.Text = "+5 Dire Flail Of Vampiric Touch"
+        ElseIf TextBox1.Text = "71" Then
+            TextBox3.Text = "+4 Illusion Bane Hunting Impendance Rapier"
+        ElseIf TextBox1.Text = "72" Then
+            TextBox3.Text = "+5 Implacable Impaling Venomous Lance Of Harmsting"
+        ElseIf TextBox1.Text = "73" Then
+            TextBox3.Text = "+4 Mithril Scalemail Of Swimming"
+        ElseIf TextBox1.Text = "74" Then
+            TextBox3.Text = "+5 Illusion Theft Lucky Dagger Of Magebane Knockback"
+        ElseIf TextBox1.Text = "75" Then
+            TextBox3.Text = "+4 Suriken (50)"
+        ElseIf TextBox1.Text = "76" Then
+            TextBox3.Text = "+5 Adamantine Flail"
+        ElseIf TextBox1.Text = "77" Then
+            TextBox3.Text = "+4 Unholy Shortsword Of Blasphemy"
+        ElseIf TextBox1.Text = "78" Then
+            TextBox3.Text = "+5 Mighty Smithing Warhammer of Morphing Mindcrusher"
+        ElseIf TextBox1.Text = "79" Then
+            TextBox3.Text = "+4 Throwing Dart Of Shock (9)"
+        ElseIf TextBox1.Text = "80" Then
+            TextBox3.Text = "+5 Returning Power Storing Warhammer Of Stunning(Moradin's Class)"
+        ElseIf TextBox1.Text = "81" Then
+            TextBox3.Text = "+4 Light Hammer Of Harmsting"
+        ElseIf TextBox1.Text = "82" Then
+            TextBox3.Text = "+5 Blasphemous Longsword Of Bane (Unholy)"
+        ElseIf TextBox1.Text = "83" Then
+            TextBox3.Text = "+4 Frost Dagger Of Ghosttouch"
+        ElseIf TextBox1.Text = "84" Then
+            TextBox3.Text = "+5 Vicious Greatsword Of Wounding"
+        ElseIf TextBox1.Text = "85" Then
+            TextBox3.Text = "Amethist"
+        ElseIf TextBox1.Text = "86" Then
+            TextBox3.Text = "+4 Punch Dagger Of Shock"
+        ElseIf TextBox1.Text = "87" Then
+            TextBox3.Text = "+5 Glaive Of Vetrigo"
+        ElseIf TextBox1.Text = "88" Then
+            TextBox3.Text = "+4 Smiting Katana Of Sundering"
+        ElseIf TextBox1.Text = "89" Then
+            TextBox3.Text = "+5 Animal Bane Sickle"
+        ElseIf TextBox1.Text = "90" Then
+            TextBox3.Text = "+4 Light Repeating Crossbow Of Hunting"
+        ElseIf TextBox1.Text = "91" Then
+            TextBox3.Text = "+5 Ring Of Healing"
+        ElseIf TextBox1.Text = "92" Then
+            TextBox3.Text = "+4 Neckless Of Force Protection"
+        ElseIf TextBox1.Text = "93" Then
+            TextBox3.Text = "+5 Greataxe Of Vorpal"
+        ElseIf TextBox1.Text = "94" Then
+            TextBox3.Text = "+4 Sai Of Sound Burst"
+        ElseIf TextBox1.Text = "95" Then
+            TextBox3.Text = "+5 Bodyfeeder Staff Of Tripping"
+        ElseIf TextBox1.Text = "96" Then
+            TextBox3.Text = "+4 Flaming Falchion Of Anarchy"
+        ElseIf TextBox1.Text = "97" Then
+            TextBox3.Text = "Oath Bow"
+        ElseIf TextBox1.Text = "98" Then
+            TextBox3.Text = "+5 Vorpal Scimitar"
+        ElseIf TextBox1.Text = "99" Then
+            TextBox3.Text = "+5 Axiomatic Battleaxe Of Holy Burst"
+        ElseIf TextBox1.Text = "100" Then
+            TextBox3.Text = "Nine Lives Stealer"
+        End If
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+
+    End Sub
+
+    Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs)
+
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        If TextBox1.Text = "1" Then
+            TextBox3.Text = "Bloodcrier's Hammer"
+        ElseIf TextBox1.Text = "2" Then
+            TextBox3.Text = "Bones Of Li-Peng"
+        ElseIf TextBox1.Text = "3" Then
+            TextBox3.Text = "Bow Of The Black Archer"
+        ElseIf TextBox1.Text = "4" Then
+            TextBox3.Text = "Bright Evening Star"
+        ElseIf TextBox1.Text = "5" Then
+            TextBox3.Text = "Hammer Of Thunderbolts"
+        ElseIf TextBox1.Text = "6" Then
+            TextBox3.Text = "Sword Of Kas"
+        ElseIf TextBox1.Text = "7" Then
+            TextBox3.Text = "Puncturing Ice"
+        ElseIf TextBox1.Text = "8" Then
+            TextBox3.Text = "Bullybasher's Gaunlet"
+        ElseIf TextBox1.Text = "9" Then
+            TextBox3.Text = "Caladbolg"
+        ElseIf TextBox1.Text = "10" Then
+            TextBox3.Text = "Caput Mortuum"
+        ElseIf TextBox1.Text = "11" Then
+            TextBox3.Text = "Axe Of The Sea Reavers"
+        ElseIf TextBox1.Text = "12" Then
+            TextBox3.Text = "Bladed Crossbow"
+        ElseIf TextBox1.Text = "13" Then
+            TextBox3.Text = "Coral's Bite"
+        ElseIf TextBox1.Text = "14" Then
+            TextBox3.Text = "Crimson Ruination"
+        ElseIf TextBox1.Text = "15" Then
+            TextBox3.Text = "Desert Wind"
+        ElseIf TextBox1.Text = "16" Then
+            TextBox3.Text = "Crystal Echoblade"
+        ElseIf TextBox1.Text = "17" Then
+            TextBox3.Text = "Blazing Skylance"
+        ElseIf TextBox1.Text = "18" Then
+            TextBox3.Text = "Assassin Whip"
+        ElseIf TextBox1.Text = "19" Then
+            TextBox3.Text = "Devious"
+        ElseIf TextBox1.Text = "20" Then
+            TextBox3.Text = "Vicious"
+        ElseIf TextBox1.Text = "21" Then
+            TextBox3.Text = "Divine Spark"
+        ElseIf TextBox1.Text = "22" Then
+            TextBox3.Text = "Dutindana"
+        ElseIf TextBox1.Text = "23" Then
+            TextBox3.Text = "Chain Of Obeisance"
+        ElseIf TextBox1.Text = "24" Then
+            TextBox3.Text = "Bowstaff"
+        ElseIf TextBox1.Text = "25" Then
+            TextBox3.Text = "Bow Of Songs"
+        ElseIf TextBox1.Text = "26" Then
+            TextBox3.Text = "Cubgel That Never Forgets"
+        ElseIf TextBox1.Text = "27" Then
+            TextBox3.Text = "Dymonheart"
+        ElseIf TextBox1.Text = "28" Then
+            TextBox3.Text = "Exordious"
+        ElseIf TextBox1.Text = "29" Then
+            TextBox3.Text = "Dagger Of Defiance"
+        ElseIf TextBox1.Text = "30" Then
+            TextBox3.Text = "Death Spike"
+        ElseIf TextBox1.Text = "31" Then
+            TextBox3.Text = "Gaunlet Of Gruumsh"
+        ElseIf TextBox1.Text = "32" Then
+            TextBox3.Text = "Fiendkiller's Flail"
+        ElseIf TextBox1.Text = "33" Then
+            TextBox3.Text = "Flay"
+        ElseIf TextBox1.Text = "34" Then
+            TextBox3.Text = "Frostburn's Wrath"
+        ElseIf TextBox1.Text = "35" Then
+            TextBox3.Text = "Full Moon's Trick"
+        ElseIf TextBox1.Text = "36" Then
+            TextBox3.Text = "Dwarf Crusher"
+        ElseIf TextBox1.Text = "37" Then
+            TextBox3.Text = "Explosive Sling"
+        ElseIf TextBox1.Text = "38" Then
+            TextBox3.Text = "The Fist"
+        ElseIf TextBox1.Text = "39" Then
+            TextBox3.Text = "Ghost Net"
+        ElseIf TextBox1.Text = "40" Then
+            TextBox3.Text = "Forceful Skylance"
+        ElseIf TextBox1.Text = "41" Then
+            TextBox3.Text = "Ghostfolly's Gloves"
+        ElseIf TextBox1.Text = "42" Then
+            TextBox3.Text = "Guurgal"
+        ElseIf TextBox1.Text = "43" Then
+            TextBox3.Text = "Hammer Of Witches"
+        ElseIf TextBox1.Text = "44" Then
+            TextBox3.Text = "Infiltrator"
+        ElseIf TextBox1.Text = "45" Then
+            TextBox3.Text = "Lorestealer"
+        ElseIf TextBox1.Text = "46" Then
+            TextBox3.Text = "Galeb Duhr Hammer"
+        ElseIf TextBox1.Text = "47" Then
+            TextBox3.Text = "Hoocked Hammer Of Hearthfire"
+        ElseIf TextBox1.Text = "48" Then
+            TextBox3.Text = "Manticore Gratesword"
+        ElseIf TextBox1.Text = "49" Then
+            TextBox3.Text = "Living Chain"
+        ElseIf TextBox1.Text = "50" Then
+            TextBox3.Text = "Mau-Jehe"
+        ElseIf TextBox1.Text = "51" Then
+            TextBox3.Text = "Lash Of Sands"
+        ElseIf TextBox1.Text = "52" Then
+            TextBox3.Text = "Mace Of The Dark Children"
+        ElseIf TextBox1.Text = "53" Then
+            TextBox3.Text = "Meteoric Knife"
+        ElseIf TextBox1.Text = "54" Then
+            TextBox3.Text = "Barricade Buckler"
+        ElseIf TextBox1.Text = "55" Then
+            TextBox3.Text = "Dragonrider Armour"
+        ElseIf TextBox1.Text = "56" Then
+            TextBox3.Text = "Dwanstar"
+        ElseIf TextBox1.Text = "57" Then
+            TextBox3.Text = "Mindsplitter"
+        ElseIf TextBox1.Text = "58" Then
+            TextBox3.Text = "Notched Spear"
+        ElseIf TextBox1.Text = "59" Then
+            TextBox3.Text = "Earthplate Armour"
+        ElseIf TextBox1.Text = "60" Then
+            TextBox3.Text = "Electric Eel Hide"
+        ElseIf TextBox1.Text = "61" Then
+            TextBox3.Text = "Planeshifters Knife"
+        ElseIf TextBox1.Text = "62" Then
+            TextBox3.Text = "Zombie Hide Armour"
+        ElseIf TextBox1.Text = "63" Then
+            TextBox3.Text = "Exoskeleton Armour"
+        ElseIf TextBox1.Text = "64" Then
+            TextBox3.Text = "Rod Of Trimeg"
+        ElseIf TextBox1.Text = "65" Then
+            TextBox3.Text = "Scales Of Balance"
+        ElseIf TextBox1.Text = "66" Then
+            TextBox3.Text = "Scarab Of Arabros"
+        ElseIf TextBox1.Text = "67" Then
+            TextBox3.Text = "Vampire Hide Armour"
+        ElseIf TextBox1.Text = "68" Then
+            TextBox3.Text = "Ghoul Hide Armour"
+        ElseIf TextBox1.Text = "69" Then
+            TextBox3.Text = "Shishi-O"
+        ElseIf TextBox1.Text = "70" Then
+            TextBox3.Text = "Kyton Armour"
+        ElseIf TextBox1.Text = "71" Then
+            TextBox3.Text = "Fox Hide Armour"
+        ElseIf TextBox1.Text = "72" Then
+            TextBox3.Text = "Simple Bow"
+        ElseIf TextBox1.Text = "73" Then
+            TextBox3.Text = "Skull Lash"
+        ElseIf TextBox1.Text = "74" Then
+            TextBox3.Text = "Millennial Chainmail"
+        ElseIf TextBox1.Text = "75" Then
+            TextBox3.Text = "Owlfeather Armour"
+        ElseIf TextBox1.Text = "76" Then
+            TextBox3.Text = "Mithralmist Shirt"
+        ElseIf TextBox1.Text = "77" Then
+            TextBox3.Text = "Morningstar Of The Many"
+        ElseIf TextBox1.Text = "78" Then
+            TextBox3.Text = "Pick Of Piercing"
+        ElseIf TextBox1.Text = "79" Then
+            TextBox3.Text = "Wight Armour"
+        ElseIf TextBox1.Text = "80" Then
+            TextBox3.Text = "Quarterstaff Of Battle"
+        ElseIf TextBox1.Text = "81" Then
+            TextBox3.Text = "Rapier Of Desperate Mesure"
+        ElseIf TextBox1.Text = "82" Then
+            TextBox3.Text = "Rapier Of Unnering Direction"
+        ElseIf TextBox1.Text = "83" Then
+            TextBox3.Text = "Rod Of Cat"
+        ElseIf TextBox1.Text = "84" Then
+            TextBox3.Text = "Rod Of Defiance"
+        ElseIf TextBox1.Text = "85" Then
+            TextBox3.Text = "Sling Of The Dire Wind"
+        ElseIf TextBox1.Text = "86" Then
+            TextBox3.Text = "Staff Of the Torrent Moons"
+        ElseIf TextBox1.Text = "87" Then
+            TextBox3.Text = "Shield Of The Resolute"
+        ElseIf TextBox1.Text = "88" Then
+            TextBox3.Text = "Bracers Of Power"
+        ElseIf TextBox1.Text = "89" Then
+            TextBox3.Text = "Shield Of The Severd Hand"
+        ElseIf TextBox1.Text = "90" Then
+            TextBox3.Text = "Wight Hide Shield"
+        ElseIf TextBox1.Text = "91" Then
+            TextBox3.Text = "Warpped Tower"
+        ElseIf TextBox1.Text = "92" Then
+            TextBox3.Text = "Stalker's Bow"
+        ElseIf TextBox1.Text = "93" Then
+            TextBox3.Text = "Steadfast"
+        ElseIf TextBox1.Text = "94" Then
+            TextBox3.Text = "Stormchaser's Cudgel"
+        ElseIf TextBox1.Text = "95" Then
+            TextBox3.Text = "Thanifex"
+        ElseIf TextBox1.Text = "96" Then
+            TextBox3.Text = "Treebrother"
+        ElseIf TextBox1.Text = "97" Then
+            TextBox3.Text = "Ur"
+        ElseIf TextBox1.Text = "98" Then
+            TextBox3.Text = "Wargird's Armour"
+        ElseIf TextBox1.Text = "99" Then
+            TextBox3.Text = "Scourge Of Pain"
+        ElseIf TextBox1.Text = "100" Then
+            TextBox3.Text = "Rogue Blade"
+        End If
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        Dim random As Random
+        Dim D20 As Integer
+        random = New Random
+        D20 = random.Next(1, 21)
+        TextBox39.Text = D20
+
+        Dim sum As Integer ' textbox 46 and 47
+        Dim a As Integer
+        Dim b As Integer
+        sum = (a + b)
+
+        a = Val(TextBox39.Text)
+        b = Val(TextBox46.Text)
+        sum = Val(TextBox46.Text) + Val(TextBox39.Text)
+        TextBox47.Text = "The Roll Is " & a & " + " & b & " = " & sum & "."
+
+
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        Dim random As Random
+        Dim D12 As Integer
+        random = New Random
+        D12 = random.Next(1, 13)
+        TextBox40.Text = D12
+
+        Dim sum As Integer ' 48 and 49 are the textboxes
+        Dim a As Integer
+        Dim b As Integer
+        sum = (a + b)
+        a = Val(TextBox40.Text)
+        b = Val(TextBox48.Text)
+        sum = Val(TextBox40.Text) + Val(TextBox48.Text)
+        TextBox49.Text = "The Roll Is " & a & " + " & b & " = " & sum & "."
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        Dim random As Random
+        Dim D6 As Integer
+        random = New Random
+        D6 = random.Next(1, 7)
+        TextBox41.Text = D6
+
+        Dim sum As Integer ' textboxes 50 and 51
+        Dim a As Integer
+        Dim b As Integer
+        sum = (a + b)
+        a = Val(TextBox41.Text)
+        b = Val(TextBox50.Text)
+        sum = Val(TextBox50.Text) + Val(TextBox41.Text)
+        TextBox51.Text = "The Roll Is " & a & " + " & b & " = " & sum & "."
+
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Dim random As Random
+        Dim D8 As Integer
+        random = New Random
+        D8 = random.Next(1, 9)
+        TextBox42.Text = D8
+
+        Dim sum As Integer ' textboxes are 52 and 53
+        Dim a As Integer
+        Dim b As Integer
+        sum = (a + b)
+        a = Val(TextBox42.Text)
+        b = Val(TextBox52.Text)
+        sum = Val(TextBox42.Text) + Val(TextBox52.Text)
+        TextBox53.Text = "The Roll Is " & a & " + " & b & " = " & sum & "."
+
+
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        Dim random As Random
+        Dim D4 As Integer
+        random = New Random
+        D4 = random.Next(1, 5)
+        TextBox43.Text = D4
+
+        '54 55
+        Dim sum As Integer
+        Dim a As Integer
+        Dim b As Integer
+        sum = (a + b)
+        a = Val(TextBox43.Text)
+        b = Val(TextBox54.Text)
+        sum = Val(TextBox54.Text) + Val(TextBox43.Text)
+        TextBox55.Text = "The Roll Is " & a & " + " & b & " = " & sum & "."
+
+
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        Dim random As Random
+        Dim D10 As Integer
+        random = New Random
+        D10 = random.Next(1, 11)
+        TextBox44.Text = D10
+
+        '56 and 57 are the textboxes
+        Dim sum As Integer
+        Dim a As Integer
+        Dim b As Integer
+        sum = (a + b)
+        a = Val(TextBox44.Text)
+        b = Val(TextBox56.Text)
+        sum = Val(TextBox44.Text) + Val(TextBox56.Text)
+        TextBox57.Text = "The Roll Is " & a & " + " & b & " = " & sum & "."
+
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        Dim random As Random
+        Dim D100 As Integer
+        random = New Random
+        D100 = random.Next(1, 101)
+        TextBox45.Text = D100
+    End Sub
+
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+    End Sub
+
+    Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+    End Sub
+
+    Private Sub LinkLabel3_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel3.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+    End Sub
+
+    Private Sub LinkLabel9_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel9.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+
+    End Sub
+
+    Private Sub LinkLabel5_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel5.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+    End Sub
+
+    Private Sub LinkLabel6_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel6.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+    End Sub
+
+    Private Sub LinkLabel7_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel7.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+
+    End Sub
+
+    Private Sub LinkLabel8_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel8.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+    End Sub
+
+    Private Sub GroupBox6_Enter(sender As Object, e As EventArgs) Handles GroupBox6.Enter
+
+    End Sub
+
+    Private Sub LinkLabel10_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel10.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+    End Sub
+
+    Private Sub LinkLabel11_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel11.LinkClicked
+        System.Diagnostics.Process.Start(e.Link.LinkData.ToString())
+    End Sub
+
+    Private Sub Label16_Click(sender As Object, e As EventArgs) Handles Label16.Click
+        Me.Close()
+    End Sub
+
+    Private Sub Label17_Click(sender As Object, e As EventArgs) Handles Label17.Click
+        Me.WindowState = FormWindowState.Minimized
+    End Sub
+
+    Private Sub DomainUpDown1_SelectedItemChanged(sender As Object, e As EventArgs) Handles DomainUpDown1.SelectedItemChanged
 
     End Sub
 
